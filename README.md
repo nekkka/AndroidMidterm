@@ -24,8 +24,8 @@ ApiClient - a Retrofit based http client. Use it for your network requests.
 ## Tasks
 
 1. Offer list is taken from `FakeService` object, which is actually a list of hardcoded `Offer` objects. Add a GET request using Retrofit to fetch offer list from [here](https://my-json-server.typicode.com/estharossa/fake-api-demo/offer_list)
-2. Offer list is displayed using Recycler View, but it uses not optimized method `notifyDataSetChanged()`. Add **Diff.Util** implementation for the recycler view and get rid of the "setItems" method
-3. Add a functionality to sort offer list by **price and duration**. UI is already done for you using radio buttons, include only sorting logic and updating UI.
+2. Offer list is displayed using Recycler View, but it uses not optimized method `notifyDataSetChanged()`. Add **Diff.Util** implementation for the recycler view and get rid of the "setItems" method [Done, i hope, hz]
+3. Add a functionality to sort offer list by **price and duration**. UI is already done for you using radio buttons, include only sorting logic and updating UI. [Done]
 
 Bonus Task: add images of all airlines using Glide. There is already an ImageView for you.
 
